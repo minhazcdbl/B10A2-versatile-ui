@@ -142,12 +142,15 @@
     margin: 5rem auto;
     border-radius: 1rem;
      align-items: center;
-     margin-left: 6.25rem;
+     margin-left: 5rem;
+    
 }
 .body-shape-container {
     display: flex;
-    gap: 350px;
+    margin-right: 6rem;
+    
 }
+
 
 #badge-1{
     padding: 6px 7px;
@@ -155,8 +158,54 @@
     font-weight: 500;
     margin-left: -100px;
     margin-top: -150px;
+    border-radius: 5px;
+    background-color: #555;
 }
 #badge-2{
     font-size: 2rem;
     font-weight: 700;
+}
+
+#badge-3{
+        
+    position: absolute;
+  top: 48%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 0.8rem;
+  padding: 6px 7px;
+  border: none;
+   border-radius: 5px;
+  text-align: center;
+}
+#badge-4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.habit-u {
+
+    max-width: 540px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: xx-large;
+    color: #FFFFFF
+
+}
+
+.habit-p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: small;
+      
+}
+
+.habit-p {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
 }
